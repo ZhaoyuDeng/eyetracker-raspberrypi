@@ -4,52 +4,48 @@
 
 ###### Eye tracking is the process of measuring either the point of gaze or the motion of an eye relative to the head. 
 
+![Eye-tracker](.\IntroPhoto\PortablePart.JPG)
+**Introduction video is below:**
+[Introduction Video -- YOUTUBE](https://youtu.be/Bhi8Y2sCANM)
+
 ### Content Introduction
 
-1. **Adjusting**
+#### 1. Adjusting
 
    Photo of 9 crosses for adjustment, regression analysis for mapping parameter
 
-2. **IntroPhoto**  (Introduction photos)
+#### 2. IntroPhoto  (Introduction photos)
 
-   Photos of general introduction
+   Photos of hardware, detection images and adjusting images
 
-3. **PupilSample**
+#### 3. PupilSample
 
    Origin Matlab testing program for pupil detection, and grayscale eye photos of every eye-directions to test detection
 
-4. **src**  (Source code)
+#### 4. src  (Source code)
 
    Core program files:
 
-   ​	(File 1~3 & 4 run on PC, 4 runs on Raspberry Pi)
+   ​	(File i~iii & v run on PC, iv runs on Raspberry Pi)
 
-   1. <u>RecvPupilDetMap.py</u>
+   1. **RecvPupilDetMap.py**
 
-      Main file of project
+      *Main file of project*
 
       Receive eye-cam picture to detect pupil. Receive front-cam picture and map cross on the picture.
 
-   2. <u>pupildet.py</u>
+   2. **pupildet.py**
 
       The essential function of pupil detection.
 
-   3. <u>tools.py</u>
+   3. **tools.py**
 
       Misc methods for adjustment, image processing, connection, etc.
 
-   4. <u>sendvideo2.py</u>
+   4. **sendvideo2.py**
 
       Program run on Raspberry Pi to transfer images to PC server.
 
-   5. <u>GetWinMousePos.py</u>
+   5. **GetWinMousePos.py**
 
       Program to help adjust mapping parameter.
-
-
-
-Introduction video is below:**
-
-[Introduction Video -- YOUTUBE](https://youtu.be/Bhi8Y2sCANM)
-
-![Eye-trackre](D:\GitHub\eyetracker-raspberrypi\IntroPhoto\PortablePart.JPG)
