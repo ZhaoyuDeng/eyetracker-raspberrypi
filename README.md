@@ -4,7 +4,7 @@
 
 ###### Eye tracking is the process of measuring either the point of gaze or the motion of an eye relative to the head. 
 
-![Eye-tracker](.\IntroPhoto\PortablePart.JPG)
+![Eye-tracker](https://github.com/Isaac-Deng/eyetracker-raspberrypi/blob/master/IntroPhoto/PortablePart.JPG)
 **Introduction video is below:**
 [Introduction Video -- YOUTUBE](https://youtu.be/Bhi8Y2sCANM)
 
