@@ -1,4 +1,4 @@
-## Eye-tracker based on Raspberry Pi
+﻿## Eye-tracker based on Raspberry Pi
 
 ###### An eye-tracker is a device for measuring eye positions and eye movement. The glasses-type is a glasses-like type of Eye-tracker wearing like glasses.
 
@@ -42,7 +42,7 @@ This project of mine comes from an innovative experimental project of undergradu
 
       Misc methods for adjustment, image processing, connection, etc.
 
-   4. **sendvideo2.py**
+   4. **sendvideo.py**
 
       Program run on Raspberry Pi to transfer images to PC server.
 
