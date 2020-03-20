@@ -34,6 +34,6 @@ class SendVideo:
 if __name__ == "__main__":
     sv = SendVideo()
     eye_proc = Process(target=sv.send_video, args=('eye_cam',))
-    front_proc = Process(target=sv.send_video, args=('front_cam',))
+    # front_proc = Process(target=sv.send_video, args=('front_cam',))
     eye_proc.start()
-    front_proc.start()
+    # front_proc.start()
